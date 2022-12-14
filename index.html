@@ -4,36 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link href="style.css" rel="stylesheet">
-
     <title>Анимационный ролик</title>
 </head>
 <body>
-    <div class="main">
+    <div class="container">
         <div class="header">
-            <h2>Анимационный ролик</h2>
+            <div class="mt-5">
+                <h2>Анимационный ролик</h2>
+            </div>
         </div>
-        <div class="content">
+        <div class="content mt-3 text-center col-md-6" style="margin:auto;">
             <video width="100%" controls autoplay muted >
                 <source src="character.mp4">
             </video>
         </div>
-        <div class="footer">
-            <div class="left">
+    </div>
+    <footer class="footer mt-auto py-3 bg-light" style="position: absolute;
+    bottom: 0;
+    left: 0;
+    
+    right: 0;">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 left">
                 4-МЗ-4
                 <br>
                 Заворотная Юлия Геннадьевна
             </div>
-            <div class="center">
+            <div class="col-md-4 center">
                 09.03.03
                 <br>
                 Заочная форма обучения
             </div>
-            <div class="right">
+            <div class="col-md-2 right">
                 2022
             </div>
+          </div>
         </div>
-    </div>
+      </footer>
+      
 </body>
 </html>
-
