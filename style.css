@@ -1,83 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;0,800;1,700&display=swap');
 
-.main {
-    width: 100%;
-    height: 100%;
-    background: #FFFFFF;
-}
-
-.header {
-    position: absolute;
-    width: 862px;
-    height: 145px;
-    left: 289px;
-    top: 47px;
-    
+.header {  
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
-    font-size: 64px;
-    line-height: 78px;
-    display: flex;
+    font-size: 34px;
     align-items: center;
     text-align: center;
-    
+    margin: auto;
     color: #000000;
 }
 
 .content { 
-    position: absolute;
-    width: 839px;
-    height: 408px;
-    left: 301px;
-    top: 270px;
-
     background: #EFEFEF;
 }
 
 .footer {
-    position: absolute;
-    width: 1440px;
-    height: 158px;
-    left: 0px;
-    top: 866px;
-    margin: auto;
     background: #FAFAFA;
+    
 }
 
 .left {
-    position: absolute;
-    width: 476px;
-    height: 97px;
-    left: 18px;
-    top: 18px;
-
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
-    font-size: 22px;
+    font-size: 18px;
     line-height: 27px;
-    display: flex;
     align-items: center;
     text-align: start;
-
     color: #3A3A3A;
-
 }
 
 .center {
-    position: absolute;
-    width: 476px;
-    height: 97px;
-    left: 575px;
-    top: 18px;
-
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
-    font-size: 22px;
+    font-size: 18px;
     line-height: 27px;
-    display: flex;
     align-items: center;
     text-align: start;
     color: #3A3A3A;
@@ -85,20 +44,12 @@
 }
 
 .right {
-    position: absolute;
-    width: 162px;
-    height: 97px;
-    left: 1251px;
-    top: 35px;
-
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
-    font-size: 22px;
+    font-size: 18px;
     line-height: 27px;
-    display: flex;
     align-items: center;
     text-align: center;
-
     color: #3A3A3A;
 }
